@@ -1,0 +1,58 @@
+body {
+    background-color: #9ECC97;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#root {
+    position: relative;
+}
+.snake-element {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+
+.head {
+    background-color: rgba(0,0,0,0.5);  
+}
+.game-box {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border: 1px solid black;
+}
+
+#scoreboard {
+    left: calc(50vw - 250px);
+    margin: auto;
+    padding: 8px;
+    width: 484px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    font-family: monospace;
+    font-size: 1.3rem;
+}
+
+#scoreboard.game-over-label {
+    font-weight: 600;
+    color: red;
+}
+
+.thing {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+#restart-game {
+    display: inline-block;
+    margin: 4px 8px;
+    border: 1px solid green;
+    padding: 4px;
+    border-radius: 4px;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    text-transform: uppercase;
+}

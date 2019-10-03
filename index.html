@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="root"></div>
+        <div style="width:100%;text-align: center;">
+            <p style="display:inline-block">
+                Press 'Space' to start, 'ESC' to pause.
+                Use Arrow keys or 'A','S','D','W' to turn snake's head.
+                <div id='restart-game' style="display: none">Restart</div>
+            </p>
+
+        </div>
+    </body>
+
+    <script>
+        game = new Game();
+        game.init();
+
+    </script>
+</html>
